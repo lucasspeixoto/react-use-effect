@@ -1,13 +1,13 @@
-import { UseEffectEx3 } from "./components/UseEffectEx3";
+import { UseEffectEx1 } from "./components/UseEffectEx1";
 
 //! UseEffect examples
 function App2() {
   
   return (
     <>
-      {/* <UseEffectEx1 /> */}
+      <UseEffectEx1 />
       {/* <UseEffectEx2 /> */}
-      <UseEffectEx3 />
+     {/*  <UseEffectEx3 /> */}
       {/* <UseEffectEx4 /> */}
     </>
   );
