@@ -1,10 +1,13 @@
 # React - useEffect
 
-Repositório do projeto criado no meu canal do youtube sobre o useEffect, acesse aqui: [Vídeo](https://youtu.be/pNFMXouQVo8)
+Repositório do projeto criado no meu canal do youtube sobre o useEffect, acesse aqui: [Vídeo](https://youtu.be/r6S6VZ3mq5Q)
 
 ![Capa](public/capa.png 'Capa')
 
-## Clone
+## Descrição Vídeo
+Nesse vídeo, vamos entender de uma vez por todas como funciona o useEffect em detalhes, vendo na teoria e prática em quais situações devemos usar. Vamos entender também o porquê precisamos evitar ao máximo utilizar este hook.
+
+## Clonar o projeto
 
 Clone o repositório
 
