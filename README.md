@@ -2,7 +2,7 @@
 
 Repositório do projeto criado no meu canal do youtube sobre o useEffect, acesse aqui: [Vídeo](https://youtu.be/pNFMXouQVo8)
 
-![Capa](public/capa.jpeg 'Capa')
+![Capa](public/capa.jpg 'Capa')
 
 ## Clone
 
