@@ -1,0 +1,74 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input {
+  margin: 1px 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  background-color: #fff;
+  color: #333;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input:focus {
+  border-color: #5c9ded;
+  box-shadow: 0px 6px 12px rgba(92, 157, 237, 0.2);
+}
+
+input:focus + label,
+input:not(:placeholder-shown) + label {
+  top: 5px;
+  left: 10px;
+  font-size: 12px;
+  color: #5c9ded;
+  background-color: #f0f4f8;
+  padding: 0 5px;
+}
+
+button {
+  margin: 5px 0;
+  background-color: #5c9ded; 
+  color: #fff;
+  border: 2px solid transparent;
+  padding: 4px;
+  margin: 0 10px;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #fff; 
+  color: #5c9ded;
+  border: 2px solid #5c9ded;
+  box-shadow: 0px 6px 12px rgba(92, 157, 237, 0.3);
+  transform: translateY(-2px);
+}
+
+button:active {
+  background-color: #4a8ccc;
+  color: #fff;
+  border-color: transparent;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+  transform: translateY(0);
+}
